@@ -1,2 +1,21 @@
 # docker-mods
 Dockerfile for Mods building
+
+# Windows
+
+1. Get Docker for Windows([Stable](https://download.docker.com/win/stable/InstallDocker.msi) [Edge](https://download.docker.com/win/edge/Docker%20for%20Windows%20Installer.exe)).
+
+2. Install
+
+3. Search for image on [Docker Hub](https://hub.docker.com/explore/), type in as below:
+
+   ```shell
+   docker pull moglxl/moto-mods:latest
+   ```
+
+4. Run
+
+   ```shell
+   docker run -it -w /home/mods -v <your VOLUME folder>:/data moglxl/moto-mods:latest
+   ```
+
