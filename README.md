@@ -28,6 +28,6 @@ Docer image for compiling motorola Mods firmware(Base on Ubuntu 16.04).
 
 ### *References*
 
-[Docker Documentation](https://yeasy.gitbooks.io/docker_practice/content/)
+[Docker Documentation](https://docs.docker.com/)
 
 [Docker — 从入门到实践](https://www.gitbook.com/book/yeasy/docker_practice)
